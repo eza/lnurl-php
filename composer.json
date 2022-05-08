@@ -3,7 +3,7 @@
   "description": "PHP implementation of LNURL Spec, including LNURL Auth",
   "type": "library",
   "homepage": "https://github.com/eza/lnurl-php",
-  "license": "DBAD",
+  "license": "MIT",
   "authors": [
     {
       "name": "Enzo Zadrima",
