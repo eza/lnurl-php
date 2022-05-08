@@ -1,5 +1,5 @@
 {
-  "name": "eza/lnurl-php",
+  "name": "ezadr/lnurl-php",
   "description": "PHP implementation of LNURL Spec, including LNURL Auth",
   "type": "library",
   "homepage": "https://github.com/eza/lnurl-php",

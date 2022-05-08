@@ -8,7 +8,7 @@ and more importantly I added support for `lnurl-auth` (https://github.com/fiatja
 ## Installation
 
 ```
-$ composer require eza/lnurl-php
+$ composer require ezadr/lnurl-php
 ```
 
 
