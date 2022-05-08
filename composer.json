@@ -1,0 +1,33 @@
+{
+  "name": "eza/lnurl-php",
+  "description": "PHP implementation of LNURL Spec, including LNURL Auth",
+  "type": "library",
+  "homepage": "https://github.com/eza/lnurl-php",
+  "license": "DBAD",
+  "authors": [
+    {
+      "name": "Enzo Zadrima",
+      "role": "Author"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "eza\\lnurl\\": "src/"
+    },
+    "files": ["src/lnurl.php"]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "eza\\test\\lnurl\\": "test/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5.20",
+    "squizlabs/php_codesniffer": "^2.9.2"
+  },
+  "require": {
+    "php": ">=8.0.15",
+    "bitwasp/bech32": "v0.0.1",
+    "simplito/elliptic-php": "^1.0"
+  }
+}
